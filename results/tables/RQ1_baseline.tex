@@ -1,0 +1,27 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Effect of Neighborhood Income on Tax Preferences}
+\begin{tabular}{l*{4}{c}}
+\toprule
+            &\multicolumn{2}{c}{Pooled}                 &\multicolumn{1}{c}{2020}&\multicolumn{1}{c}{2022}\\\cmidrule(lr){2-3}\cmidrule(lr){4-4}\cmidrule(lr){5-5}
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+            &\multicolumn{1}{c}{Reduced}&\multicolumn{1}{c}{Full Controls}&\multicolumn{1}{c}{Full Controls}&\multicolumn{1}{c}{Full Controls}\\
+\midrule
+Neighborhood median income (log)&       8.708\sym{***}&       6.221\sym{***}&       8.362\sym{***}&       4.225         \\
+            &     (2.005)         &     (1.953)         &     (2.286)         &     (2.759)         \\
+Own family income (log)&      -2.902\sym{***}&      -4.667\sym{***}&      -4.942\sym{***}&      -4.655\sym{***}\\
+            &     (0.880)         &     (0.890)         &     (1.113)         &     (1.149)         \\
+ZIP Gini coefficient (100x scaled)&       0.762\sym{***}&       0.546\sym{***}&       0.597\sym{***}&       0.513\sym{***}\\
+            &     (0.151)         &     (0.133)         &     (0.149)         &     (0.181)         \\
+\midrule
+Observations&       7,135         &       7,135         &       3,566         &       3,569         \\
+R-squared   &       0.025         &       0.091         &       0.123         &       0.089         \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Robust standard errors in parentheses.}\\
+\multicolumn{5}{l}{\footnotesize Pooled columns cluster at the individual (cid) level.}\\
+\multicolumn{5}{l}{\footnotesize Year-specific columns cluster at the ZIP code level.}\\
+\multicolumn{5}{l}{\footnotesize Full controls: age, gender, education, race, and state fixed effects.}\\
+\multicolumn{5}{l}{\footnotesize Pooled columns include a year fixed effect.}\\
+\multicolumn{5}{l}{\footnotesize * p<0.10, ** p<0.05, *** p<0.01}\\
+\end{tabular}
+\end{table}

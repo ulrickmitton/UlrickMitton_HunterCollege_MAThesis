@@ -1,0 +1,37 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Asymmetric Position Effects on Tax Preferences (RQ3a)}
+\begin{tabular}{l*{3}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+            &\multicolumn{1}{c}{Parsimonious}&\multicolumn{1}{c}{Full Controls}&\multicolumn{1}{c}{P25 Kink}\\
+\midrule
+\textit{Median kink}&                     &                     &                     \\
+Below-median slope&      -5.234\sym{***}&      -5.977\sym{***}&                     \\
+            &     (1.362)         &     (1.183)         &                     \\
+Above-median slope&       2.287         &      -1.258         &                     \\
+            &     (2.106)         &     (1.791)         &                     \\
+\textit{25th-percentile kink}&                     &                     &                     \\
+Below-P25 slope&                     &                     &      -5.517\sym{***}\\
+            &                     &                     &     (1.706)         \\
+Above-P25 slope&                     &                     &      -3.783\sym{***}\\
+            &                     &                     &     (1.247)         \\
+\textit{Controls}&                     &                     &                     \\
+Neighborhood median income (log)&       2.710         &       0.303         &       0.156         \\
+            &     (1.790)         &     (1.856)         &     (1.862)         \\
+ZIP Gini coefficient (100x scaled)&                     &       0.379\sym{***}&       0.393\sym{***}\\
+            &                     &     (0.134)         &     (0.133)         \\
+\midrule
+Slope-equality \textit{F} test&        6.46         &        3.83         &        0.52         \\
+Slope-equality \textit{p}-value&       0.011         &       0.051         &       0.472         \\
+Observations&       7,135         &       7,135         &       7,135         \\
+R-squared   &       0.012         &       0.140         &       0.139         \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Robust standard errors clustered at individual (cid) in parentheses.}\\
+\multicolumn{4}{l}{\footnotesize The slope-equality test compares the below- and above-threshold slopes (null: no kink).}\\
+\multicolumn{4}{l}{\footnotesize Columns (1)--(2): kink at the ZIP median ($\log y/\bar{y} = 0$).}\\
+\multicolumn{4}{l}{\footnotesize Column (3): kink at the 25th percentile of $\log y/\bar{y}$.}\\
+\multicolumn{4}{l}{\footnotesize Full controls: year FE, age, gender, education, race, state FE, party ID.}\\
+\multicolumn{4}{l}{\footnotesize * p<0.10, ** p<0.05, *** p<0.01}\\
+\end{tabular}
+\end{table}

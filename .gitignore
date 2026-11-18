@@ -1,0 +1,22 @@
+# Source and generated data
+/data/*
+!/data/README.md
+*.dta
+*.csv
+*.zip
+*.xlsx
+
+# Generated logs and temporary files
+/logs/*
+!/logs/README.md
+*.log
+*.smcl
+*.stswp
+*.tmp
+tmp/
+
+# Local tooling
+.DS_Store
+.claude/
+.Rhistory
+.RData

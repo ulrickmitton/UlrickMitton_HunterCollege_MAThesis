@@ -1,0 +1,28 @@
+\begin{table}[htbp]
+\centering
+\caption{Implied Slopes at Percentiles of Local Inequality (H3a and H3b)}
+\label{tab:h3-slopes}
+\begin{tabular}{lcc}
+\toprule
+                            & (1)    & (2) \\
+                            & H3a    & H3b \\
+                            & Nbhd.\ income slope & Own income slope \\
+\midrule
+25th percentile of Gini     &   4.641** &  -6.073*** \\
+                            & (  2.218) & (  0.947) \\
+50th percentile of Gini     &   4.629** &  -4.917*** \\
+                            & (  1.940) & (  0.830) \\
+75th percentile of Gini     &   4.615** &  -3.649*** \\
+                            & (  1.914) & (  0.912) \\
+90th percentile of Gini     &   4.601** &  -2.339** \\
+                            & (  2.202) & (  1.180) \\
+\bottomrule
+\multicolumn{3}{p{11cm}}{\footnotesize
+Marginal effects (\texttt{margins, dydx()}) evaluated at the 25th, 50th,
+75th, and 90th percentiles of the ZIP Gini coefficient (mean-centered).
+Column (1): slope of log neighborhood income on \texttt{tax\_pref} (H3a).
+Column (2): slope of log own income on \texttt{tax\_pref} (H3b).
+Standard errors in parentheses.
+* <0.10$, ** <0.05$, *** <0.01$.} \\
+\end{tabular}
+\end{table}

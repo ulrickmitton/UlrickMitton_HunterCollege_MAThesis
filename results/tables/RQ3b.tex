@@ -1,0 +1,42 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Gini Moderation of Asymmetric Position Effects (RQ3b)}
+\begin{tabular}{l*{2}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}\\
+            &\multicolumn{1}{c}{Median kink}&\multicolumn{1}{c}{P25 kink}\\
+\midrule
+\textit{Median kink}&                     &                     \\
+Below-median slope (at mean Gini)&      -6.185\sym{***}&                     \\
+            &     (1.155)         &                     \\
+Below-median slope $\times$ Gini&       0.591\sym{***}&                     \\
+            &     (0.202)         &                     \\
+Above-median slope (at mean Gini)&      -1.515         &                     \\
+            &     (1.779)         &                     \\
+Above-median slope $\times$ Gini&       0.037         &                     \\
+            &     (0.364)         &                     \\
+\textit{25th-percentile kink}&                     &                     \\
+Below-P25 slope (at mean Gini)&                     &      -5.914\sym{***}\\
+            &                     &     (1.659)         \\
+Below-P25 slope $\times$ Gini&                     &       0.617\sym{**} \\
+            &                     &     (0.299)         \\
+Above-P25 slope (at mean Gini)&                     &      -4.056\sym{***}\\
+            &                     &     (1.258)         \\
+Above-P25 slope $\times$ Gini&                     &       0.282         \\
+            &                     &     (0.242)         \\
+\textit{Inequality main effect}&                     &                     \\
+ZIP Gini (mean centered)&       0.619\sym{***}&       0.345         \\
+            &     (0.204)         &     (0.210)         \\
+Neighborhood median income (log)&       1.058         &       0.904         \\
+            &     (1.895)         &     (1.906)         \\
+\midrule
+Observations&       7,135         &       7,135         \\
+R-squared   &       0.144         &       0.143         \\
+\bottomrule
+\multicolumn{3}{l}{\footnotesize Robust standard errors clustered at individual (cid) in parentheses.}\\
+\multicolumn{3}{l}{\footnotesize Both specifications are continuous at the kink and include no threshold-discontinuity indicator.}\\
+\multicolumn{3}{l}{\footnotesize \texttt{gini\\_s\\_c} is mean-centered; slope coefficients are evaluated at mean Gini ($= 0$).}\\
+\multicolumn{3}{l}{\footnotesize Controls: year FE, age, gender, education, race, state FE, party ID.}\\
+\multicolumn{3}{l}{\footnotesize * p<0.10, ** p<0.05, *** p<0.01}\\
+\end{tabular}
+\end{table}

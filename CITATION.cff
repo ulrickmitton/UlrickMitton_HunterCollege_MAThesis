@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the thesis below."
+title: "Relative Income and Tax Progressivity Preferences: Replication Materials"
+type: software
+authors:
+  - family-names: Mitton
+    given-names: Ulrick
+version: 1.0.0
+date-released: 2026-11-09
+repository-code: "https://github.com/ulrickmitton/relative-income-tax-preferences"
+abstract: >-
+  Stata replication code and selected outputs for an M.A. thesis examining the
+  association between local income composition and preferences over income
+  versus sales taxation.
+keywords:
+  - relative income
+  - tax progressivity
+  - redistribution preferences
+  - local comparisons
+  - Stata

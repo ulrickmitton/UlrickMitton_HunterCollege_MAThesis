@@ -1,0 +1,29 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{1}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}\\
+            &\multicolumn{1}{c}{tax\_pref}\\
+\midrule
+Neighborhood median income (log)(Democrats)&       9.421\sym{***}\\
+            &     (2.496)         \\
+Neighborhood median income (log) $\times$ Republican&      -9.235\sym{**} \\
+            &     (3.993)         \\
+Neighborhood median income (log) $\times$ Independent&      -3.717         \\
+            &     (3.997)         \\
+Republican (vs.\ Democrat)&     -16.837\sym{***}\\
+            &     (1.494)         \\
+Independent (vs.\ Democrat)&     -11.834\sym{***}\\
+            &     (1.490)         \\
+Own family income (log)&      -4.261\sym{***}\\
+            &     (0.830)         \\
+ZIP Gini coefficient (100$\times$ scaled)&       0.383\sym{***}\\
+            &     (0.136)         \\
+\midrule
+Observations&       6,710         \\
+R-squared   &       0.149         \\
+\bottomrule
+\multicolumn{2}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{2}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

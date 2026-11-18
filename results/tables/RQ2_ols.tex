@@ -1,0 +1,29 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Inequality Moderation of Income Effects on Tax Preferences (H3a, H3b)}
+\begin{tabular}{l*{2}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}\\
+            &\multicolumn{1}{c}{H3a}&\multicolumn{1}{c}{H3b}\\
+\midrule
+Neighborhood median income (log)&       4.627\sym{**} &       5.133\sym{***}\\
+            &     (1.921)         &     (1.892)         \\
+Own family income (log)&      -4.528\sym{***}&      -4.777\sym{***}\\
+            &     (0.879)         &     (0.828)         \\
+ZIP Gini coefficient (mean centered)&       0.399\sym{***}&       0.418\sym{***}\\
+            &     (0.136)         &     (0.133)         \\
+Neighborhood income $\times$ Gini&      -0.004         &                     \\
+            &     (0.239)         &                     \\
+Own income $\times$ Gini&                     &       0.387\sym{***}\\
+            &                     &     (0.135)         \\
+\midrule
+Observations&       7,135         &       7,135         \\
+R-squared   &       0.139         &       0.142         \\
+\bottomrule
+\multicolumn{3}{l}{\footnotesize Robust standard errors in parentheses.}\\
+\multicolumn{3}{l}{\footnotesize H3a clusters at ZIP code; H3b clusters at individual (cid).}\\
+\multicolumn{3}{l}{\footnotesize All income and Gini variables mean-centered for slope interpretation at the mean.}\\
+\multicolumn{3}{l}{\footnotesize Controls: year FE, birth year, gender, education, race, state FE, party ID.}\\
+\multicolumn{3}{l}{\footnotesize * p<0.10, ** p<0.05, *** p<0.01}\\
+\end{tabular}
+\end{table}
