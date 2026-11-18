@@ -7,7 +7,7 @@ authors:
     given-names: Ulrick
 version: 1.0.0
 date-released: 2026-11-09
-repository-code: "https://github.com/ulrickmitton/relative-income-tax-preferences"
+repository-code: "https://github.com/ulrickmitton/UlrickMitton_HunterCollege_MAThesis"
 abstract: >-
   Stata replication code and selected outputs for an M.A. thesis examining the
   association between local income composition and preferences over income
